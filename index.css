@@ -1,0 +1,78 @@
+/*Presets*/
+
+* {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5d3668;
+}
+
+
+/*End Presets*/
+
+
+/*Navigation Styling*/
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+    display: none;
+}
+
+.nav li {
+    list-style-type: none;
+    margin-top: 5%;
+}
+
+.nav li:first-child {
+    margin-top: 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    margin: 10% 0 0 8%;
+}
+
+.nav li a:hover {
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s ease-in;
+}
+
+
+/*End Navigation Styling*/
+
+#menu {
+    /* background-color: #f00074; */
+    height: 4.5vh;
+    width: 7%;
+    margin: 5% 0 0 5%;
+}
+
+.bar {
+    background-color: white;
+    height: .75vh;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#bar1 {
+    transform: translateY(-6px);
+}
+
+#bar3 {
+    transform: translateY(6px);
+}
+
+
+/*Hamburger Styling*/
+
+
+/*End Hamburger Styling*/
